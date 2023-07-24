@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+$color1: #E9E5D8;
+$color2: #385643;
+$color3: #9395D3;
+
+* {
+    font-family: 'Gruppo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    body {
+        background: $color1;
+    }
+}
