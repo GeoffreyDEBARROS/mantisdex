@@ -8,7 +8,9 @@ const Cards = () => {
 
   const cardClick = (index) => {
     localStorage.setItem("mantisIndex", index);
-    navigate("/mantis");
+    setTimeout(() => {
+      navigate("/mantis");
+    }, 100);
   };
 
   return (

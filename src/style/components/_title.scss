@@ -4,11 +4,22 @@
     align-items: center;
     img {
         width: 250px;
-        transform: translateY(-30px);
+        transform: translateY(-30px) translateX(-1000px);
+        transition: 0.3s;
+        animation: mantisIn ease-in 1s both running;
     }
     h1 {
         transform: translateY(-30px);
         color: $color3;
         letter-spacing: 3px;
+    }
+}
+
+@keyframes mantisIn {
+    from {
+        transform: translateX(-1000px) translateY(-30px);
+    }
+    to {
+        transform: translateX(0) translateY(-30px);
     }
 }

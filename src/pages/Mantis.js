@@ -26,11 +26,26 @@ const Mantis = () => {
         </div>
       </div>
       <div className="mantis-infos">
-        <p><span className="info-name">origine : </span><span className="info">{mantis[mantisIndex].origine}</span></p>
-        <p><span className="info-name">taille : </span><span className="info">{mantis[mantisIndex].taille}</span></p>
-        <p><span className="info-name">température : </span><span className="info">{mantis[mantisIndex].temp}</span></p>
-        <p><span className="info-name">hygrométrie : </span><span className="info">{mantis[mantisIndex].hygro}</span></p>
-        <p><span className="info-name">terrarium : </span><span className="info">{mantis[mantisIndex].terrarium}</span></p>
+        <p>
+          <span className="info-name">origine : </span>
+          <span className="info">{mantis[mantisIndex].origine}</span>
+        </p>
+        <p>
+          <span className="info-name">taille : </span>
+          <span className="info">{mantis[mantisIndex].taille}</span>
+        </p>
+        <p>
+          <span className="info-name">température : </span>
+          <span className="info">{mantis[mantisIndex].temp}</span>
+        </p>
+        <p>
+          <span className="info-name">hygrométrie : </span>
+          <span className="info">{mantis[mantisIndex].hygro}</span>
+        </p>
+        <p>
+          <span className="info-name">terrarium : </span>
+          <span className="info">{mantis[mantisIndex].terrarium}</span>
+        </p>
       </div>
     </div>
   );
