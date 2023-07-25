@@ -2,7 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    img {
+    #contact {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        border: none;
+        background: none;
+        color: $color2;
+    }
+    #imgMante {
         width: 250px;
         transform: translateY(-30px) translateX(-1000px);
         transition: 0.3s;

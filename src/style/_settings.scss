@@ -11,5 +11,6 @@ $color3: #F97B22;
     box-sizing: border-box;
     body {
         background: $color1;
+        overflow-x: hidden;
     }
 }
